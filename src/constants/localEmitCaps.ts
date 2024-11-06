@@ -1,0 +1,33 @@
+export function localEmitCaps(
+    id:any,
+    type:any,
+    amount_of_milk_produced:any,
+    number_of_cows_head:any,
+    had_supervision:any,
+    farmName:any,
+    farmCity:any,
+    from:any,
+    to:any,
+    locationLatitude:any,
+    locationlongitude:any,
+    created_at:any,
+    updated_at:any,
+    inNetWork:any,
+){
+    return {
+        id,
+        type,
+        amount_of_milk_produced,
+        number_of_cows_head,
+        had_supervision,
+        farmName,
+        farmCity,
+        from,
+        to,
+        locationLatitude,
+        locationlongitude,
+        created_at,
+        updated_at,
+        inNetWork
+    };
+}

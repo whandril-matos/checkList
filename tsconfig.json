@@ -12,6 +12,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
-    "expo-env.d.ts"
-  ]
+    "expo-env.d.ts",
+    "nativewind-env.d.ts"
+, "src/data/createNewInfor.js", "src/data/listTypeSchema.js", "src/data/RealmConfig.js", "src/data/saveInfoInLocal.ts"  ]
 }
